@@ -1,0 +1,152 @@
+﻿body 
+{
+    direction:rtl;
+    background-image:url("../images/white wall.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:Arial;
+}
+#container{
+    width:960px;
+    margin: 0 auto;
+}
+
+
+h1
+{margin-right:40px;
+ margin-top:100px;
+    font-size:60px;
+   color:orangered
+}
+
+#nav1 ul {
+    list-style: none;
+    width: 500px; 
+    
+}
+
+ #nav1 ul li {
+        display: inline-block;
+        float: right;
+    
+ }
+
+ #nav1 ul li a {
+         padding-top: 10px;
+            display: block;
+            background-color: orange;
+            text-decoration: none;
+            text-align: center;
+            width: 125px;
+            height: 30px;
+            font-size:22px;
+            color:black;
+ }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: orangered;
+            }
+
+            #nav1 ul li a:active {
+                background-color: black;
+                color:white;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 120px;
+        }
+
+h3{
+    font-size:25px; 
+}
+ 
+.year{
+    color:orangered;
+    font-weight:bold;
+
+}
+
+.work , .education , .interests, .about{
+    
+    background-color: white;
+    width: 500px;
+    height:230px;
+    margin-top:150px;
+    margin-right:40px;
+    padding: 10px;
+    font-size:20px;
+    text-align:right
+    }
+
+.contact{
+    margin-right:30px;
+}
+
+
+
+.pic{
+    position:relative;
+    right: 575px;
+    top:-540px;
+    border-style:solid;
+    border-color:orangered;
+    border-width:3px;
+    width:363px;
+    height:296px;
+    background-image:url("../images/hit.jpg");
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+a#fb , a#li{
+    margin-right:35px;
+    margin:5px;
+    width:60px;
+    height:60px;
+    background-size:60px;
+    background-repeat:no-repeat;
+    display:inline-block;
+   -webkit-transition: background 2s ease;
+   -moz-transition: background 2s ease;
+   -o-transition: background 2s ease;
+    transition: background 2s ease;
+    }
+a#fb{
+    background-image:url("../images/facebook.png");
+    margin-right:3px;
+}
+a#li{
+    background-image:url("../images/linkedin.png")
+}
+
+a#fb:hover , a#li:hover{
+     background-image:url("../images/bluesquare.png");
+    width:60px;
+    height:60px;
+
+
+}
+    
+
+a#fb:active , a#li:active{
+    background-image:url("../images/orange.jpg");
+    width:60px;
+    height:60px;
+}
+
+        
+
+
+
+
+
+
